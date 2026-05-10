@@ -605,7 +605,7 @@ aside #side-theme-button {
         width: 100%;
     }
     .info h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .info p {
         font-size: 20px;
@@ -648,16 +648,21 @@ aside #side-theme-button {
 /* ALTERAR A SESSÃO DE FORMAÇÃO */
 @media screen and (max-width: 860px) {
     body {
-        margin: 25px 15px;
+        margin: 25px 5px;
+    }
+    .sections {
+        margin: 25px 5px;
     }
     .formacao {
         width: 90%;
-        padding-right: 10%;
-        padding-left: 10%;
-        margin: 0;
+        padding-right: 20%;
+        padding-left: 20%;
     }
     .formacao h1 {
         font-size: 30px;
+    }
+    .formacao h2 {
+        font-size: 20px;
     }
 }
 
