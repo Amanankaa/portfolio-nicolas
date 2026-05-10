@@ -647,6 +647,9 @@ aside #side-theme-button {
 /* QUANDO A TELA TIVER NO MÁXIMO 860 PIXELS*/
 /* ALTERAR A SESSÃO DE FORMAÇÃO */
 @media screen and (max-width: 860px) {
+    body {
+        margin: 25px 15px;
+    }
     .formacao {
         width: 90%;
         padding-right: 10%;
