@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Portfólio Nícolas</title>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <!-- LOGO COM NOME -->
+        <section id="logo">
+            <h1>Nícolas Micaloski</h1>
+            <p>Estudante CS</p>
+        </section>
+
+        <!-- BOTÃO PARA TROCAR DE TEMA E BARRA DE NAVEGAÇÃO -->
+        <div>
+            <!-- TROCAR DE TEMA -->
+            <section class="button" id="theme-button" onclick="themeButtonClick()">
+                <img src="imagens/dark-mode.png">
+            </section>
+            
+            <!-- BARRA DE NAVEGAÇÃO -->
+            <section id="navegacao">
+                <a href="#sobre-mim"><strong>Sobre Mim</strong></a>
+                <a href="#formacao"><strong>Formação</strong></a>
+                <a href="#portfolio""><strong>Portfólio</strong></a>
+                <a href="#contato"><strong>Contato</strong></a>
+            </section>
+        </div>
+    </header>
+
+    <!-- SESSÃO PRINCIPAL -->
+    <section id="main-section">
+
+        <!-- SESSÃO SOBRE MIM -->
+        <div id="sobre-mim" class="sections">
+
+            <!-- INFORMAÇÕES PRINCIPAIS -->
+            <section class="info">
+
+                <!-- NOME, DESCRIÇÃO E RESUMO -->
+                <h1>Nícolas Krenchiglova Micaloski</h1>
+                <h2>Estudante de Ciência da Computação</h2>
+                <p>Venho estudando assuntos relacionados a computação desde que me conheço por gente. Busco constantemente meios de otimizar meu código para garantir qualidade e confiabilidade junto de praticidade para todos em minha equipe.</p>
+                
+                <!-- BOTÕES PARA PORTFÓLIO E CONTATO -->
+                <div id="buttons">
+                    <a href="#portfolio" id="info-projetos">Meus Projetos</a>
+                    <a href="#contato" id="info-contato">Entre em Contato</a>
+                </div>
+            </section>
+
+            <!-- FOTO -->
+            <img src="imagens/minha-foto.png" alt="Minha foto">
+        </div>
+
+        <!-- SESSÃO FORMAÇÃO -->
+        <div id="formacao" class="sections">
+
+            <!-- INFORMAÇÕES PRINCIPAIS -->
+            <section class="info">
+                <h1>Formação</h1>
+                <p>Conheça as principais instituições que atendi e o respectivo curso que concluí ou estou cursando em cada uma delas.</p>
+            </section>
+
+            <!-- TODAS AS FORMAÇÕES COM INSTITUIÇÃO, CURSO E STATUS -->
+             <!-- FAZER COM QUE O STATUS SEJA DA COR VERDE -->
+            <section id="main">
+
+                <!-- UNINTER -->
+                <div class="formacao">
+                    <h1>UNINTER</h1>
+                    <h2>Ciência da Computação</h2>
+                    <h3>Status: <span class="status-green">Cursando</span></h3>
+                </div>
+
+                <!-- SENAI -->
+                <div class="formacao">
+                    <h1>SENAI</h1>
+                    <h2>Desenvolvimento de Sistemas 4.0</h2>
+                    <h3>Status: <span class="status-green">Concluído</span></h3>
+                </div>
+
+                <!-- MICROLINS -->
+                <div class="formacao">
+                    <h1>MICROLINS</h1>
+                    <h2>Pacote Office Avançado</h2>
+                    <h3>Status: <span class="status-green">Concluído</span></h3>
+                </div>
+
+                <!-- INFLUX -->
+                <div class="formacao">
+                    <section>
+                    <h1>INFLUX</h1>
+                    <h2>Inglês Avançado</h2>
+                    <h3>Status: <span class="status-green">Concluído</span></h3>
+                </div>
+            </section>
+        </div>
+
+        <!-- SESSÃO PORTFÓLIO -->
+        <div id="portfolio" class="sections">
+
+            <!-- TODOS OS PROJETOS COM TÍTULO, DESCRIÇÃO E UM BOTÃO PARA O GITHUB DO PROJETO -->
+            <section id="main">
+
+                <!-- NGR SYSTEM -->
+                <div class="projeto">
+                    <h1>NGR SYSTEM</h1>
+                    <p>Um sistema de RH completo e customizável para empresas pequenas, incluindo interface visual completa, autenticação de usuário, integração com banco de dados e assim por diante. Projeto realizado como TCC do curso de Desenvolvimento de Sistemas 4.0 no SENAI com a linguagem de programação C#.</p>
+                    <a href="https://github.com/Amanankaa/ngr-system" title="GitHub do Projeto">Saiba Mais</a>
+                </div>
+
+                <!-- COFRINHO -->
+                <div class="projeto">
+                    <h1>COFRINHO</h1>
+                    <p>Uma aplicação que simula um cofrinho e permite armazenar diferentes tipos de moedas de valores diferentes, incluindo controle completo sobre a lista e funções de conversão de valores. Projeto realizado durante a disciplina de Programação Orientada a Objetos na UNINTER com a linguagem de programação Java.</p>
+                    <a href="https://github.com/Amanankaa/cofrinho" title="GitHub do Projeto">Saiba Mais</a>
+                </div>
+            </section>
+
+            <!-- INFORMAÇÕES PRINCIPAIS -->
+            <section class="info">
+                <h1>Portfólio</h1>
+                <p>Saiba mais sobre os principais projetos que trabalhei durante toda a minha jornada estudando o ramo de desenvolvimento de sistemas.</p>
+            </section>
+        </div>
+
+        <!-- SESSÃO CONTATO -->
+        <div id="contato" class="sections">
+
+            <!-- INFORMAÇÕES PRINCIPAIS E LINKS PARA GITHUB E LINKEDIN -->
+            <section class="info">
+
+                <!-- INTRODUÇÃO -->
+                <h1>Contato</h1>
+                <p>Surgiu alguma dúvida? Despertou algum interesse? Acesse meu perfil no GitHub e LinkedIn para mais informações ou entre em contato enviando uma mensagem para meu E-Mail pessoal!</p>
+                
+                <!-- LINKS -->
+                <div id="links">
+
+                    <!-- GITHUB -->
+                    <div class="link" id="github-button">
+                        <img src="imagens/github-dark.png">
+                        <a href="https://github.com/Amanankaa" title="Meu GitHub">GitHub</a>
+                    </div>
+
+                    <!-- LINKEDIN -->
+                    <div class="link" id="linkedin-button">
+                        <img src="imagens/linkedin-dark.png">
+                        <a href="https://www.linkedin.com/in/n%C3%ADcolas-krenchiglova-micaloski-7abb8427a/" title="Meu LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FORMULÁRIO DE ENVIO DE MENSAGEM -->
+             <!-- ANEXAR O FUNÇÃO "enviarButton()" AO BOTÃO ENVIAR -->
+            <section id="form">
+                <input type="text" placeholder="Nome" id="nome-input">
+                <input type="email" placeholder="E-Mail" id="email-input">
+                <input type="text" placeholder="Assunto" id="assunto-input">
+                <textarea type="textarea" placeholder="Mensagem" id="mensagem-input"></textarea>
+                <button type="button" onclick="enviarButtonClick()">Enviar</button>
+            </section>
+        </div>
+    </section>
+
+    <!-- BARRA LATERAL E O BOTÃO PARA ATIVÁ-LA -->
+    <aside id="menu">
+
+        <!-- BOTÃO PARA ATIVAR BARRA LATERAL -->
+         <!-- ANEXAR FUNÇÃO "menuButtonClick()" NO BOTÃO MENU -->
+        <section class="button" id="menu-button" onclick="menuButtonClick()">
+            <img src="imagens/menu-dark.png">
+        </section>
+
+        <!-- BARRA LATERAL -->
+        <div id="side-bar">
+
+            <!-- LINKS PARA SESSÕES -->
+            <a href="#sobre-mim"><strong>Sobre Mim</strong></a>
+            <a href="#formacao"><strong>Formação</strong></a>
+            <a href="#portfolio""><strong>Portfólio</strong></a>
+            <a href="#contato"><strong>Contato</strong></a>
+
+            <!-- BOTÃO PARA TROCAR DE TEMA -->
+            <section class="button" id="side-theme-button" onclick="themeButtonClick()">
+                <img src="imagens/dark-mode.png">
+            </section>
+        </div>
+    </aside>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2026 Nícolas Krenchiglova Micaloski | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
